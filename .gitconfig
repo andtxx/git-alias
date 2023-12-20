@@ -1,0 +1,18 @@
+[alias]
+a = add .
+rt = reset HEAD~
+rtm = reset origin/master --hard
+ct = commit -m _ -n
+cta = commit --amend -n
+ctm = commit -m
+rem = rebase master
+rec = rebase --continue
+cht = checkout
+sw = switch
+p = push
+pf = push -f
+pl = pull
+b = branch
+ba = branch -a
+st = status -s
+l = log --oneline
