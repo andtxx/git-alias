@@ -1,14 +1,17 @@
 [alias]
 a = add .
 rt = reset HEAD~
+rth = reset --hard
 rtm = reset origin/master --hard
 ct = commit -m _ -n
 cta = commit --amend -n
 ctm = commit -m
+cp = cherry-pick
 rem = rebase master
 rec = rebase --continue
 cht = checkout
 sw = switch
+f = fetch
 p = push
 pf = push -f
 pl = pull
